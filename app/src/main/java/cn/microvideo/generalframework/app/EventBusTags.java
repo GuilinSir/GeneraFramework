@@ -13,18 +13,20 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package cn.microvideo.generaframework.mvp.model.api;
+package cn.microvideo.generalframework.app;
+
+import org.simple.eventbus.EventBus;
 
 /**
  * ================================================
- * 存放一些与 API 有关的东西,如请求地址,请求码等
- * <p>
- * Created by JessYan on 08/05/2016 11:25
+ * 放置 {@link EventBus} 的 Tag ,便于检索
+ *
+ * @see <a href="https://github.com/JessYanCoding/MVPArms/wiki#3.5">EventBusTags wiki 官方文档</a>
+ * Created by JessYan on 8/30/2016 16:39
  * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>
  * <a href="https://github.com/JessYanCoding">Follow me</a>
  * ================================================
  */
-public interface Api {
-    String APP_DOMAIN = "https://api.github.com";
-    String RequestSuccess = "0";
+public interface EventBusTags {
+
 }

@@ -1,4 +1,4 @@
-package cn.microvideo.generaframework;
+package cn.microvideo.generalframework;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

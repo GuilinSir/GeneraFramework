@@ -13,7 +13,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package cn.microvideo.generaframework.app;
+package cn.microvideo.generalframework.app;
 
 import android.app.Activity;
 import android.app.Application;
@@ -23,7 +23,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
-import cn.microvideo.generaframework.R;
+import cn.microvideo.generalframework.R;
 import timber.log.Timber;
 
 /**

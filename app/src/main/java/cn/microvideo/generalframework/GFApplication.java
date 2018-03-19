@@ -1,4 +1,4 @@
-package cn.microvideo.generaframework;
+package cn.microvideo.generalframework;
 
 import com.jess.arms.base.BaseApplication;
 

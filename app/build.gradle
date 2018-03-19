@@ -5,7 +5,7 @@ android {
     buildToolsVersion rootProject.ext.android["buildToolsVersion"]
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "cn.microvideo.generaframework"
+        applicationId "cn.microvideo.generalframework"
         minSdkVersion rootProject.ext.android["minSdkVersion"]
         targetSdkVersion rootProject.ext.android["targetSdkVersion"]
         versionCode rootProject.ext.android["versionCode"]

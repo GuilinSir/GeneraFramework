@@ -13,7 +13,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package cn.microvideo.generaframework.app;
+package cn.microvideo.generalframework.app;
 
 import android.app.Application;
 import android.content.Context;
@@ -24,7 +24,7 @@ import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
 import butterknife.ButterKnife;
-import cn.microvideo.generaframework.BuildConfig;
+import cn.microvideo.generalframework.BuildConfig;
 import timber.log.Timber;
 
 /**

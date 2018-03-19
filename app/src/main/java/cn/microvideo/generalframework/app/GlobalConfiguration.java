@@ -13,7 +13,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   */
-package cn.microvideo.generaframework.app;
+package cn.microvideo.generalframework.app;
 
 import android.app.Application;
 import android.content.Context;
@@ -31,8 +31,8 @@ import com.squareup.leakcanary.RefWatcher;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import cn.microvideo.generaframework.BuildConfig;
-import cn.microvideo.generaframework.mvp.model.api.Api;
+import cn.microvideo.generalframework.BuildConfig;
+import cn.microvideo.generalframework.mvp.model.api.Api;
 import me.jessyan.progressmanager.ProgressManager;
 import me.jessyan.retrofiturlmanager.RetrofitUrlManager;
 
